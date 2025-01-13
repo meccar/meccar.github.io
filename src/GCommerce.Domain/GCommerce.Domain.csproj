@@ -1,0 +1,27 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+    <PropertyGroup>
+        <TargetFramework>net9.0</TargetFramework>
+        <ImplicitUsings>enable</ImplicitUsings>
+        <Nullable>enable</Nullable>
+    </PropertyGroup>
+
+    <ItemGroup>
+      <PackageReference Include="Abp.Modules.Core" Version="0.3.2" />
+      <PackageReference Include="Volo.Abp.AuditLogging.Domain" Version="9.0.3" />
+      <PackageReference Include="Volo.Abp.BackgroundJobs.Domain" Version="9.0.3" />
+      <PackageReference Include="Volo.Abp.BlobStoring.Database.Domain" Version="9.0.3" />
+      <PackageReference Include="Volo.Abp.Core" Version="9.0.3" />
+      <PackageReference Include="Volo.Abp.FeatureManagement.Domain" Version="9.0.3" />
+      <PackageReference Include="Volo.Abp.Identity.Domain" Version="9.0.3" />
+      <PackageReference Include="Volo.Abp.Localization" Version="9.0.3" />
+      <PackageReference Include="Volo.Abp.Localization.Abstractions" Version="9.0.3" />
+      <PackageReference Include="Volo.Abp.PermissionManagement.Domain" Version="9.0.3" />
+      <PackageReference Include="Volo.Abp.SettingManagement.Domain" Version="9.0.3" />
+    </ItemGroup>
+
+    <ItemGroup>
+      <ProjectReference Include="..\GCommerce.Domain.Shared\GCommerce.Domain.Shared.csproj" />
+    </ItemGroup>
+
+</Project>

@@ -1,0 +1,6 @@
+@GCommerce.DbMigrator_HostAddress = http://localhost:5049
+
+GET {{GCommerce.DbMigrator_HostAddress}}/weatherforecast/
+Accept: application/json
+
+###

@@ -1,0 +1,12 @@
+﻿services:
+  presentation:
+    image: presentation
+    build:
+      context: .
+      dockerfile: src/Presentation/Dockerfile
+
+  gcommerce.dbmigrator:
+    image: gcommerce.dbmigrator
+    build:
+      context: .
+      dockerfile: src/GCommerce.DbMigrator/Dockerfile
