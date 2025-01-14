@@ -1,0 +1,30 @@
+{
+  "compilerOptions": {
+    "module": "commonjs",
+    "declaration": true,
+    "removeComments": true,
+    "emitDecoratorMetadata": true,
+    "experimentalDecorators": true,
+    "allowSyntheticDefaultImports": true,
+    "target": "ES2021",
+    "sourceMap": true,
+    "outDir": "./dist",
+    "baseUrl": "./",
+    "paths": {
+      "@Application/*": ["src/GCommerce.Application/*"],
+      "@Application.Contracts/*": ["src/GCommerce.Application.Contracts/*"],
+      "@DbMigrator/*": ["src/GCommerce.DbMigrator/*"],
+      "@Domain/*": ["src/GCommerce.Domain/*"],
+      "@Domain.Shared/*": ["src/Domain.Shared/*"],
+      "@Infrastructure/*": ["src/GCommerce.Infrastructure/*"],
+      "@Presentation/*": ["src/GCommerce.Presentation/*"]
+    },
+    "incremental": true,
+    "skipLibCheck": true,
+    "strictNullChecks": false,
+    "noImplicitAny": false,
+    "strictBindCallApply": false,
+    "forceConsistentCasingInFileNames": false,
+    "noFallthroughCasesInSwitch": false
+  }
+}
