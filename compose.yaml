@@ -10,3 +10,15 @@
     build:
       context: .
       dockerfile: src/GCommerce.DbMigrator/Dockerfile
+
+  gcommerce.web:
+    image: gcommerce.web
+    build:
+      context: .
+      dockerfile: src/GCommerce.Web/Dockerfile
+
+  gcommerce.web-1:
+    image: gcommerce.web-1
+    build:
+      context: .
+      dockerfile: GCommerce.Web/Dockerfile

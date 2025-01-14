@@ -6,4 +6,20 @@
         <Nullable>enable</Nullable>
     </PropertyGroup>
 
+    <ItemGroup>
+      <Folder Include="Brands\" />
+    </ItemGroup>
+
+    <ItemGroup>
+      <PackageReference Include="Volo.Abp.AutoMapper" Version="9.0.3" />
+      <PackageReference Include="Volo.Abp.Core" Version="9.0.3" />
+      <PackageReference Include="Volo.Abp.Ddd.Application" Version="9.0.3" />
+    </ItemGroup>
+
+    <ItemGroup>
+      <ProjectReference Include="..\GCommerce.Application.Contracts\GCommerce.Application.Contracts.csproj" />
+      <ProjectReference Include="..\GCommerce.Domain.Shared\GCommerce.Domain.Shared.csproj" />
+      <ProjectReference Include="..\GCommerce.Domain\GCommerce.Domain.csproj" />
+    </ItemGroup>
+
 </Project>
