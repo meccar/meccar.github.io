@@ -15,8 +15,9 @@
       "@Application.Contracts/*": ["src/GCommerce.Application.Contracts/*"],
       "@DbMigrator/*": ["src/GCommerce.DbMigrator/*"],
       "@Domain/*": ["src/GCommerce.Domain/*"],
-      "@Domain.Shared/*": ["src/Domain.Shared/*"],
+      "@Domain.Shared/*": ["src/GCommerce.Domain.Shared/*"],
       "@Infrastructure/*": ["src/GCommerce.Infrastructure/*"],
+      "@Persistance/*": ["src/GCommerce.Persistance/*"],
       "@Presentation/*": ["src/GCommerce.Presentation/*"]
     },
     "incremental": true,
